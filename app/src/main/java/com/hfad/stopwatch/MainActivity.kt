@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
         binding.stopwatch.base = SystemClock.elapsedRealtime() - offset
     }
     //Сохраняет offset
-    fun saveOffset() {
+    fun saveOffset(){
         offset = SystemClock.elapsedRealtime() - binding.stopwatch.base
     }
 }
